@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+     monospace;
+    -moz-osx-font-smoothing: grayscale;
+    background: #191a1b;
+}
+
+#container {
+    margin-left: 4rem;
+    margin-top: 4rem;
+    font-size: 1rem;
+    color: #191a1b;
+}
+
+::selection {
+    color: #c742be;
+}
+ 
+i {
+    padding: 1rem;
+    color: #c742be;
+}
+
+.first {
+    padding-left: 0.5rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a :hover {
+    color: #046f4d;
+    transition: color 0.3s;
+}
+
+#name {
+    font-weight: bold;
+}
+
+h5 {
+    font-weight: normal;
+    color: #c742be;
+}
+
+.icon {
+    height: .875rem;
+    font-family: "fontello";
+    font-style: normal;
+    
+}
